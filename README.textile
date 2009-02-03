@@ -1,0 +1,11 @@
+h1. jmd_save: @Ctrl+s@ saving of fields
+
+This plugin creates a keyboard shortcut for saving form-fields in the admin.
+
+h2. Usage
+
+On any editing tab (except plugins), enter one of the following key combinations depedning on your platform:
+
+* Windows/*nix: @Alt+s@
+* Mac: @Ctrl+s@
+
