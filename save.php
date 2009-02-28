@@ -18,12 +18,6 @@ if (txpinterface === 'admin')
 function jmd_save()
 {
     $js = <<<EOD
-var jmd_save = {};
-jmd_save.page = {
-    'event': '{$GLOBALS['event']}',
-    'step': '{$GLOBALS['step']}',
-    'nostep': ['admin', 'css', 'js', 'link', 'page', 'prefs']
-};
 //inc <save.js>
 EOD;
     echo tag($js, 'script', ' type="text/javascript"');

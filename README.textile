@@ -1,5 +1,7 @@
 h1. jmd_save: @Ctrl+s@ saving of fields
 
+"Forum thread":http://forum.textpattern.com/viewtopic.php?id=29661, "git repo":http://github.com/jmdeldin/jmd_save/
+
 This plugin creates a keyboard shortcut for saving form-fields in the admin.
 
 h2. Usage
@@ -8,4 +10,8 @@ On any editing tab (except plugins), enter one of the following key combinations
 
 * Windows/*nix: @Alt+s@
 * Mac: @Ctrl+s@
+
+h2. Developers
+
+To use Ctrl+s for your own plugin, use the "publish" class on your @input@ or @button@.
 
