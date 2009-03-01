@@ -21,9 +21,6 @@ jmd_save.main = function()
         if (e.which === mod)
             isMod = 0;
     };
-    var btn = $('.publish')
-        if (btn.length > 0)
-            console.log(btn.length)
 }();
 
 /**
